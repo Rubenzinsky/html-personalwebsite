@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: #02101f;
+    color: #fffdef;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+span {
+    color: #fffdef;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 300;
+    margin: 0 0 10 0;
+    padding: 0 10;
+    text-wrap: nowrap;
+    color: #fdbcd0;
+}
+
+.red-shade {
+    grid-area: 1/1/2/4;
+    background-color: #0a0003d2;
+    height: 100%;
+}
+
+.dark-shade {
+    grid-area: 1/1/2/2;
+    background-color: #00000079;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hero-header {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 12rem;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0;
+    color: #d16286;
+}
+
+.hero {
+    grid-area: 1/2/2/3;
+    align-content: center;
+    padding: 0 18% 100;
+}
+
+.hero-image {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 700px;
+    grid-area: 1/1/2/4;
+}
+
+.small-section {
+    margin: 150 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.small-section > img {
+    border-radius: 50%;
+    height: 200px;
+    width: 300px;
+    margin: 20;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+.what-I-do {
+    
+}
+
+.what-I-do > div {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 600px 600px;
+    text-align: left;
+    margin: 50px 10%;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    margin: 80px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.card > h3 {
+    padding: 30px 40px;
+    font-size: 2rem;
+    align-content: end;
+    grid-area: 1/1/2/1;
+    margin: 0;
+    color: #5ad8ac;
+}
+
+.card img {
+    border-radius: 20px 20px 0px 0px;
+    grid-area: 1/1/2/1;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: bottom;
+}
+
+.card > p {
+    color: #02101f;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 30px 40px;
+    background-color: #fdbcd0;
+    border-radius: 0px 0px 20px 20px;
+    grid-area: 2/1/2/2;
+    margin: 0;
+    height: 180px;
+}
+
+.end {
+    margin: 100px 0px 0px 0px;
+    background-color: #fdbcd0;
+    padding: 50px;
+    color: #02101f;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links > a {
+    margin: 20px 20px 40px 20px;
+    text-decoration: none;
+    color: #d16286;
+}
